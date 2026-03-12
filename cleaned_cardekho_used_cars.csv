@@ -1,0 +1,452 @@
+brand,name,price,registration_yr,insurance,fuel_type,seats,km_driven,ownership,engine_displacement,transmission,manufacture_yr
+Tata,Tata Nexon Creative Plus S,997000.0,2024,Own Damage,Petrol,5,10000 ,First Owner,1199 ,Manual,2024
+Kia,Kia Sonet HTX Plus Turbo iMT DT,850000.0,2022,Comprehensive,Petrol,5,28000 ,First Owner,998 ,Manual,2022
+Tata,Tata Hexa XTA,725000.0,2018,Comprehensive,Diesel,7,82000 ,First Owner,2179 ,Automatic,2018
+Kia,Kia Seltos HTX IVT G,950000.0,2020,Zero Dep,Petrol,5,90000 ,First Owner,1497 ,Automatic,2020
+Hyundai,Hyundai Creta 1.4 E Plus,735000.0,2019,Own Damage,Diesel,5,70000 ,First Owner,1396 ,Manual,2019
+Hyundai,Hyundai Verna VTVT 1.6 SX Option,700000.0,2018,Comprehensive,Petrol,5,29000 ,Second Owner,1591 ,Manual,2018
+Maruti,Maruti Eeco 5 Seater AC CNG,625000.0,2025,Zero Dep,CNG,5,6890 ,First Owner,1197 ,Manual,2025
+Tata,Tata Nexon XM S BSVI,690000.0,2022,Own Damage,Petrol,5,39000 ,First Owner,1199 ,Manual,2022
+Jeep,Jeep Compass 2.0 Limited 4X4,825000.0,2018,Own Damage,Diesel,5,79500 ,Second Owner,1956 ,Manual,2018
+Hyundai,Hyundai Creta 1.6 SX Automatic,750000.0,2019,Own Damage,Petrol,5,70000 ,Second Owner,1591 ,Automatic,2019
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,875000.0,2018,Own Damage,Petrol,5,69000 ,First Owner,1591 ,Automatic,2018
+Mahindra,Mahindra XUV500 AT W10 FWD,630000.0,2017,Third Party,Diesel,7,94500 ,Second Owner,2179 ,Automatic,2017
+MG,MG Hector Sharp DCT,925000.0,2021,Comprehensive,Petrol,5,81000 ,Second Owner,1451 ,Automatic,2020
+Honda,Honda City i-DTEC V,647000.0,2019,Own Damage,Diesel,5,69000 ,Second Owner,1498 ,Manual,2019
+Hyundai,Hyundai Grand i10 Nios Sportz,675000.0,2023,Own Damage,Petrol,5,22000 ,First Owner,1197 ,Manual,2023
+Hyundai,Hyundai Venue SX Plus Turbo DCT BSIV,790000.0,2019,Comprehensive,Petrol,5,35000 ,First Owner,998 ,Automatic,2019
+Maruti,Maruti Ciaz Zeta Automatic BSIV,645000.0,2019,Comprehensive,Petrol,5,5900 ,First Owner,1462 ,Automatic,2019
+Hyundai,Hyundai Creta 1.6 CRDi SX,765000.0,2018,Zero Dep,Diesel,5,70000 ,First Owner,1582 ,Manual,2018
+Hyundai,Hyundai Verna VTVT 1.6 AT SX Plus,849000.0,2019,Own Damage,Petrol,5,30000 ,Second Owner,1591 ,Automatic,2019
+Toyota,Toyota Yaris J CVT,660000.0,2019,Own Damage,Petrol,5,68000 ,First Owner,1496 ,Automatic,2019
+MG,MG Hector Sharp Diesel MT BSIV,800000.0,2019,Own Damage,Diesel,5,56000 ,First Owner,1956 ,Manual,2019
+Kia,Kia Sonet HTK Plus Diesel BSVI,810000.0,2021,Comprehensive,Diesel,5,50000 ,First Owner,1493 ,Manual,2021
+Kia,Kia Sonet HTK Plus BSVI,775000.0,2022,Comprehensive,Petrol,5,35000 ,First Owner,1197 ,Manual,2022
+Hyundai,Hyundai Creta 1.6 VTVT S,675000.0,2016,Comprehensive,Petrol,5,64000 ,First Owner,1591 ,Manual,2016
+Toyota,Toyota Urban cruiser Mid,700000.0,2022,Own Damage,Petrol,5,80000 ,First Owner,1462 ,Manual,2022
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,749000.0,2017,Own Damage,Petrol,5,72000 ,First Owner,1591 ,Automatic,2017
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,625000.0,2016,Own Damage,Petrol,5,54200 ,First Owner,1591 ,Automatic,2016
+Honda,Honda City i-VTEC CVT VX,695000.0,2018,Own Damage,Petrol,5,70000 ,First Owner,1497 ,Automatic,2018
+Hyundai,Hyundai Venue SX Opt Turbo BSIV,685000.0,2019,Comprehensive,Petrol,5,38000 ,First Owner,998 ,Manual,2019
+MG,MG Hector Sharp Diesel MT,975000.0,2020,Zero Dep,Diesel,5,85000 ,First Owner,1956 ,Manual,2020
+Maruti,Maruti XL6 Zeta,825000.0,2021,Comprehensive,Petrol,6,56000 ,First Owner,1462 ,Manual,2021
+Hyundai,Hyundai Creta 1.4 E Plus CRDi,625000.0,2017,Own Damage,Diesel,5,150000 ,First Owner,1396 ,Manual,2017
+Hyundai,Hyundai Creta 1.6 CRDi AT SX Plus,699000.0,2017,Own Damage,Diesel,5,85000 ,Second Owner,1582 ,Automatic,2017
+MG,MG Hector Hybrid Sharp MT BSIV,875000.0,2019,Comprehensive,Petrol,5,59000 ,First Owner,1451 ,Manual,2019
+Honda,Honda City V CVT,997000.0,2022,Comprehensive,Petrol,5,34000 ,First Owner,1498 ,Automatic,2022
+Tata,Tata Nexon XM S BSVI,690000.0,2022,Own Damage,Petrol,5,47000 ,First Owner,1199 ,Manual,2022
+Maruti,Maruti Ertiga VDI,750000.0,2019,Zero Dep,Diesel,7,200000 ,First Owner,1248 ,Manual,2019
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,699000.0,2017,Own Damage,Petrol,5,82000 ,First Owner,1591 ,Automatic,2017
+Tata,Tata Hexa XM,625000.0,2017,Own Damage,Diesel,7,95000 ,Second Owner,2179 ,Manual,2017
+Kia,Kia Sonet HTX Turbo DCT Anniversary Edition,990000.0,2022,Own Damage,Petrol,5,28000 ,First Owner,998 ,Automatic,2022
+Hyundai,Hyundai Creta 1.6 VTVT SX Plus,771000.0,2018,Own Damage,Petrol,5,71000 ,First Owner,1591 ,Manual,2018
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,890000.0,2018,Own Damage,Petrol,5,69000 ,First Owner,1591 ,Automatic,2018
+Kia,Kia Seltos GTX,871000.0,2019,Comprehensive,Petrol,5,41000 ,First Owner,1353 ,Manual,2019
+Hyundai,Hyundai Creta 1.6 E Plus,790000.0,2018,Comprehensive,Petrol,5,51000 ,First Owner,1591 ,Manual,2018
+Maruti,Maruti XL6 Alpha,775000.0,2019,Comprehensive,Petrol,6,72000 ,First Owner,1462 ,Manual,2019
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,950000.0,2018,Own Damage,Petrol,5,58000 ,First Owner,1591 ,Automatic,2018
+Hyundai,Hyundai Venue S Turbo DCT BSIV,711000.0,2019,Comprehensive,Petrol,5,65000 ,First Owner,998 ,Automatic,2019
+Honda,Honda City i-VTEC CVT ZX,790000.0,2019,Own Damage,Petrol,5,55000 ,First Owner,1497 ,Automatic,2019
+Kia,Kia Sonet HTK Plus BSVI,650000.0,2020,Comprehensive,Petrol,5,78000 ,First Owner,1197 ,Manual,2020
+Hyundai,Hyundai Creta 1.6 EX Petrol,899000.0,2020,Zero Dep,Petrol,5,59000 ,First Owner,1591 ,Manual,2020
+Hyundai,Hyundai i20 Asta Turbo DCT,915000.0,2022,Comprehensive,Petrol,5,42000 ,First Owner,998 ,Automatic,2022
+Hyundai,Hyundai Creta 1.6 SX Automatic,740000.0,2019,Comprehensive,Petrol,5,78000 ,Second Owner,1591 ,Automatic,2019
+Tata,Tata Hexa XTA,650000.0,2017,Own Damage,Diesel,7,95000 ,Second Owner,2179 ,Automatic,2017
+Hyundai,Hyundai Verna SX IVT,925000.0,2021,Own Damage,Petrol,5,26700 ,First Owner,1497 ,Automatic,2021
+Maruti,Maruti Ertiga ZXI AT,750000.0,2019,Own Damage,Petrol,7,60000 ,First Owner,1462 ,Automatic,2019
+Maruti,Maruti XL6 Zeta,899000.0,2021,Comprehensive,Petrol,6,18006 ,First Owner,1462 ,Manual,2021
+Kia,Kia Sonet HTX Turbo iMT Anniversary Edition,800000.0,2022,Own Damage,Petrol,5,16200 ,First Owner,998 ,Automatic,2022
+Audi,Audi A6 2.8 FSI,650000.0,2011,Own Damage,Petrol,5,69000 ,Third Owner,2773 ,Automatic,2011
+Mercedes-Benz,Mercedes-Benz E-Class E 200 CGI Avantgarde,625000.0,2012,Comprehensive,Petrol,5,34000 ,First Owner,1796 ,Automatic,2012
+Mahindra,Mahindra XUV500 W7,1000000.0,2021,Own Damage,Diesel,7,30000 ,First Owner,2179 ,Manual,2021
+Toyota,Toyota Taisor S Plus AMT,900000.0,2025,Own Damage,Petrol,5,250 ,First Owner,1197 ,Automatic,2025
+Kia,Kia Sonet HTX Diesel BSVI,890000.0,2021,Comprehensive,Diesel,5,41000 ,First Owner,1493 ,Manual,2021
+Tata,Tata Nexon XZ Plus Dark Edition BSVI,850000.0,2022,Own Damage,Petrol,5,80000 ,First Owner,1199 ,Manual,2022
+Tata,Tata Nexon XZ Plus BSVI,850000.0,2022,Comprehensive,Petrol,5,29347 ,Second Owner,1199 ,Manual,2022
+Hyundai,Hyundai Creta 1.6 SX,775000.0,2018,Own Damage,Petrol,5,81000 ,First Owner,1591 ,Manual,2018
+Kia,Kia Seltos HTE G,960000.0,2023,Own Damage,Petrol,5,10000 ,First Owner,1497 ,Manual,2023
+Toyota,Toyota Yaris G CVT BSIV,660000.0,2019,Own Damage,Petrol,5,77000 ,First Owner,1496 ,Automatic,2018
+Skoda,Skoda Octavia 2.0 TDI AT L K,1000000.0,2018,Own Damage,Diesel,5,79000 ,First Owner,1968 ,Automatic,2018
+Kia,Kia Carens Prestige,1000000.0,2023,Own Damage,Petrol,7,50000 ,First Owner,1497 ,Manual,2023
+Skoda,Skoda Octavia 1.8 TSI AT Style,850000.0,2020,Zero Dep,Petrol,5,100000 ,First Owner,1798 ,Automatic,2020
+Tata,Tata Nexon XM Plus S BSVI,685000.0,2022,Own Damage,Petrol,5,39000 ,First Owner,1199 ,Manual,2022
+Hyundai,Hyundai Creta 1.4 E Plus CRDi,650000.0,2018,Zero Dep,Diesel,5,28000 ,First Owner,1396 ,Manual,2018
+Mahindra,Mahindra Bolero Neo N8,849000.0,2024,Comprehensive,Diesel,7,16000 ,First Owner,1493 ,Manual,2024
+Kia,Kia Sonet GTX Plus Turbo DCT DT,975000.0,2020,Comprehensive,Petrol,5,57000 ,First Owner,998 ,Automatic,2020
+Tata,Tata Nexon XZA Plus LUXS Red Dark AMT,890000.0,2023,Own Damage,Petrol,5,20000 ,First Owner,1199 ,Automatic,2023
+Hyundai,Hyundai Venue SX Plus Turbo DCT BSIV,660000.0,2019,Zero Dep,Petrol,5,60000 ,First Owner,998 ,Automatic,2019
+Maruti,Maruti Vitara Brezza ZXI Plus,699000.0,2021,Own Damage,Petrol,5,50000 ,First Owner,1462 ,Manual,2021
+Hyundai,Hyundai i20 N-Line N8 DCT BSVI,875000.0,2022,Comprehensive,Petrol,5,37000 ,First Owner,998 ,Automatic,2022
+Honda,Honda City i-VTEC CVT ZX,790000.0,2018,Comprehensive,Petrol,5,61087 ,Second Owner,1497 ,Automatic,2018
+Maruti,Maruti XL6 Zeta,950000.0,2021,Comprehensive,Petrol,6,21000 ,First Owner,1462 ,Manual,2021
+Tata,Tata Nexon XM Diesel BSVI,675000.0,2021,Own Damage,Diesel,5,68000 ,First Owner,1497 ,Manual,2021
+Hyundai,Hyundai Creta 1.6 SX Automatic,875000.0,2019,Third Party,Petrol,5,55000 ,Second Owner,1591 ,Automatic,2019
+Jeep,Jeep Compass 2.0 Sport,792000.0,2018,Comprehensive,Diesel,5,37000 ,First Owner,1956 ,Manual,2018
+Hyundai,Hyundai Creta 1.6 VTVT SX Plus,620000.0,2017,Own Damage,Petrol,5,75045 ,First Owner,1591 ,Manual,2017
+Hyundai,Hyundai Creta 1.6 SX,900000.0,2020,Comprehensive,Petrol,5,64000 ,Second Owner,1591 ,Manual,2020
+Hyundai,Hyundai Creta E Diesel BSVI,950000.0,2022,Comprehensive,Diesel,5,48003 ,First Owner,1493 ,Manual,2022
+Maruti,Maruti Baleno Alpha BSVI,750000.0,2022,Comprehensive,Petrol,5,20900 ,First Owner,1197 ,Manual,2022
+Hyundai,Hyundai i20 Asta Turbo DCT DT,800000.0,2020,Own Damage,Petrol,5,50000 ,Second Owner,998 ,Automatic,2020
+Kia,Kia Seltos HTK Diesel,799000.0,2019,Comprehensive,Diesel,5,123000 ,First Owner,1493 ,Manual,2019
+Hyundai,Hyundai Creta 1.6 VTVT E Plus,685000.0,2017,Own Damage,Petrol,5,34900 ,First Owner,1591 ,Manual,2017
+Tata,Tata Altroz XZA Plus DCT,755000.0,2023,Zero Dep,Petrol,5,27000 ,First Owner,1199 ,Automatic,2023
+Kia,Kia Seltos HTK Diesel,875000.0,2021,Own Damage,Diesel,5,100000 ,First Owner,1493 ,Manual,2021
+Hyundai,Hyundai Venue S 2023-2025,925000.0,2024,Comprehensive,Petrol,5,33000 ,First Owner,1197 ,Manual,2024
+Maruti,Maruti S Cross Zeta,730000.0,2021,Own Damage,Petrol,5,44000 ,First Owner,1462 ,Manual,2021
+Tata,Tata Nexon XZ Plus S 2020-2022,700000.0,2021,Own Damage,Petrol,5,50000 ,First Owner,1199 ,Manual,2021
+Hyundai,Hyundai Creta 1.4 S,650000.0,2019,Own Damage,Diesel,5,160000 ,First Owner,1396 ,Manual,2019
+Tata,Tata Nexon Pure AMT,949000.0,2024,Zero Dep,Petrol,5,5000 ,First Owner,1199 ,Automatic,2024
+Maruti,Maruti Vitara Brezza ZDi,715000.0,2019,Own Damage,Diesel,5,40000 ,First Owner,1248 ,Manual,2019
+Tata,Tata Altroz XZ Plus OS,870000.0,2025,Own Damage,Petrol,5,100 ,,1199 ,Manual,2025
+Tata,Tata Nexon EV XZ Plus,700000.0,2021,Third Party,Electric,5,70000 ,First Owner,,Automatic,2021
+Hyundai,Hyundai Creta 1.6 SX,985000.0,2020,Comprehensive,Petrol,5,68000 ,First Owner,1591 ,Manual,2020
+Honda,Honda WR-V i-VTEC S,425000.0,2017,Own Damage,Petrol,5,74000 ,First Owner,1199 ,Manual,2017
+Toyota,Toyota Yaris G CVT BSIV,499000.0,2018,Comprehensive,Petrol,5,75000 ,First Owner,1496 ,Automatic,2018
+Ford,Ford Freestyle Titanium Plus Diesel BSIV,450000.0,2019,Comprehensive,Diesel,5,72000 ,First Owner,1498 ,Manual,2019
+Hyundai,Hyundai Santro Xing GLS CNG,145000.0,2011,Own Damage,CNG,5,73000 ,Second Owner,1086 ,Manual,2011
+Maruti,Maruti Ignis 1.2 Sigma BSIV,365000.0,2019,Own Damage,Petrol,5,26000 ,First Owner,1197 ,Manual,2019
+Hyundai,Hyundai i10 Era,140000.0,2013,Comprehensive,Petrol,5,62000 ,Third Owner,1086 ,Manual,2013
+Hyundai,Hyundai i10 Sportz AT,252000.0,2012,Own Damage,Petrol,5,60000 ,Second Owner,1197 ,Automatic,2012
+Maruti,Maruti Swift VXI,450000.0,2018,Comprehensive,Petrol,5,46000 ,First Owner,1197 ,Manual,2018
+Ford,Ford Ecosport 1.5 Diesel Titanium BSIV,475000.0,2019,Own Damage,Diesel,5,65000 ,First Owner,1498 ,Manual,2019
+Maruti,Maruti Baleno 1.2 CVT Delta,385000.0,2016,Third Party,Petrol,5,65005 ,First Owner,1197 ,Automatic,2016
+Tata,Tata Tiago 1.2 Revotron XZ,325000.0,2016,Comprehensive,Petrol,5,65000 ,First Owner,1199 ,Manual,2016
+Hyundai,Hyundai Santro Xing GLS,135000.0,2012,Own Damage,Petrol,5,90000 ,First Owner,1086 ,Manual,2012
+Honda,Honda Amaze VX i-VTEC,350000.0,2016,Comprehensive,Petrol,5,52000 ,First Owner,1198 ,Manual,2016
+Maruti,Maruti Baleno 1.2 Delta,425000.0,2017,Comprehensive,Petrol,5,40000 ,First Owner,1197 ,Manual,2017
+Honda,Honda Amaze S i-Vtech,245000.0,2013,Comprehensive,Petrol,5,62157 ,First Owner,1198 ,Manual,2013
+Jeep,Jeep Compass 1.4 Sport,495000.0,2018,Third Party,Petrol,5,58000 ,First Owner,1368 ,Manual,2018
+Volkswagen,Volkswagen Polo 1.2 MPI Trendline,300000.0,2016,Comprehensive,Petrol,5,48678 ,First Owner,1198 ,Manual,2016
+Hyundai,Hyundai Grand i10 Magna,320000.0,2016,Own Damage,Petrol,5,70000 ,Second Owner,1197 ,Manual,2016
+Hyundai,Hyundai i10 Magna,140000.0,2012,Comprehensive,Petrol,5,54000 ,Second Owner,1197 ,Manual,2012
+Maruti,Maruti Baleno 1.2 Delta,450000.0,2018,Own Damage,Petrol,5,49000 ,First Owner,1197 ,Manual,2018
+Honda,Honda City S,220000.0,2012,Comprehensive,Petrol,5,82000 ,First Owner,1497 ,Manual,2012
+Citroen,Citroen C3 Turbo Feel,399000.0,2023,Comprehensive,Petrol,5,49000 ,First Owner,1199 ,Manual,2023
+Renault,Renault KWID 1.0 RXL AMT,370000.0,2021,Comprehensive,Petrol,5,46000 ,First Owner,999 ,Automatic,2021
+Hyundai,Hyundai i10 Era,165000.0,2012,Own Damage,Petrol,5,51000 ,First Owner,1086 ,Manual,2012
+Renault,Renault Triber RXT BSIV,375000.0,2019,Third Party,Petrol,7,60000 ,Second Owner,999 ,Manual,2019
+Maruti,Maruti Baleno 1.2 Zeta,400000.0,2017,Own Damage,Petrol,5,70000 ,First Owner,1197 ,Manual,2017
+Honda,Honda Mobilio V i-VTEC,345000.0,2025,Comprehensive,Petrol,7,74000 ,First Owner,1497 ,Manual,2015
+Renault,Renault Duster SANDSTORM RXS 85 PS,425000.0,2018,Comprehensive,Diesel,5,72000 ,First Owner,1461 ,Manual,2018
+Honda,Honda Amaze E Petrol BSIV,465000.0,2019,Comprehensive,Petrol,5,48000 ,First Owner,1199 ,Manual,2019
+Tata,Tata Tigor 1.2 Revotron XT,340000.0,2017,Comprehensive,Petrol,5,55000 ,First Owner,1199 ,Manual,2017
+Maruti,Maruti Celerio LXI,195000.0,2016,Own Damage,Petrol,5,69000 ,Second Owner,998 ,Manual,2016
+Honda,Honda WR-V i-VTEC VX,500000.0,2017,Own Damage,Petrol,5,80000 ,First Owner,1199 ,Manual,2017
+Maruti,Maruti Swift VXI,475000.0,2019,Comprehensive,Petrol,5,43000 ,First Owner,1197 ,Manual,2019
+Hyundai,Hyundai Grand i10 1.2 Kappa Sportz Option,399000.0,2018,Comprehensive,Petrol,5,68000 ,First Owner,1197 ,Manual,2018
+Maruti,Maruti Ertiga VXI CNG,450000.0,2016,Comprehensive,CNG,7,280000 ,Third Owner,1373 ,Manual,2016
+Maruti,Maruti Ertiga ZXI,500000.0,2015,Own Damage,Petrol,7,30000 ,Second Owner,1373 ,Manual,2015
+Renault,Renault Triber RXL BSVI,345000.0,2020,Own Damage,Petrol,7,48000 ,First Owner,999 ,Manual,2020
+Maruti,Maruti Baleno 1.2 Delta,425000.0,2018,Own Damage,Petrol,5,60000 ,Second Owner,1197 ,Manual,2018
+Renault,Renault Triber RXL EASY-R AMT,470000.0,2021,Own Damage,Petrol,7,30000 ,First Owner,999 ,Automatic,2021
+Maruti,Maruti Swift LXI,410000.0,2019,Zero Dep,Petrol,5,40000 ,First Owner,1197 ,Manual,2019
+Hyundai,Hyundai EON Era,140000.0,2012,Own Damage,Petrol,5,65214 ,First Owner,814 ,Manual,2012
+Honda,Honda Jazz 1.2 V AT i VTEC,350000.0,2015,Own Damage,Petrol,5,54000 ,First Owner,1199 ,Automatic,2015
+Datsun,Datsun GO A,170000.0,2014,Own Damage,Petrol,5,70000 ,Second Owner,1198 ,Manual,2014
+Volkswagen,Volkswagen Polo 1.2 MPI Comfortline,200000.0,2013,Third Party,Petrol,5,63000 ,First Owner,1198 ,Manual,2013
+Maruti,Maruti Ertiga SHVS VDI,445000.0,2016,Own Damage,Diesel,7,62000 ,First Owner,1248 ,Manual,2016
+Hyundai,Hyundai Xcent 1.2 Kappa S,220000.0,2014,Comprehensive,Petrol,5,95000 ,First Owner,1197 ,Manual,2014
+Maruti,Maruti Celerio VXI CNG,425000.0,2020,Comprehensive,CNG,5,63000 ,First Owner,998 ,Manual,2020
+Hyundai,Hyundai i10 Era,215000.0,2013,Comprehensive,Petrol,5,12000 ,First Owner,1086 ,Manual,2013
+Honda,Honda WR-V i-VTEC VX,475000.0,2018,Own Damage,Petrol,5,60000 ,First Owner,1199 ,Manual,2018
+Maruti,Maruti Swift Dzire VXI,365000.0,2015,Comprehensive,Petrol,5,60000 ,First Owner,1197 ,Manual,2015
+Maruti,Maruti XL6 Alpha Plus AT,1250000.0,2024,Comprehensive,Petrol,6,13000 ,First Owner,1462 ,Automatic,2024
+Kia,Kia Seltos HTX,1425000.0,2024,Zero Dep,Petrol,5,6000 ,First Owner,1497 ,Manual,2024
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1440000.0,2023,Comprehensive,Petrol,4,22000 ,First Owner,1997 ,Automatic,2023
+MG,MG Astor Sharp CVT BSVI,1195000.0,2023,Comprehensive,Petrol,5,32000 ,First Owner,1498 ,Automatic,2023
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1349000.0,2023,Comprehensive,Petrol,4,13000 ,First Owner,1997 ,Automatic,2023
+Kia,Kia Carens Luxury Plus DCT,1450000.0,2023,Zero Dep,Petrol,7,20000 ,First Owner,1482 ,Automatic,2023
+Tata,Tata Curvv Creative Plus S DCA,1430000.0,2024,Comprehensive,Petrol,5,9000 ,First Owner,1199 ,Automatic,2024
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1200000.0,2023,Zero Dep,Petrol,4,23000 ,First Owner,1997 ,Automatic,2023
+Kia,Kia Seltos HTK G,1049000.0,2022,Own Damage,Petrol,5,37000 ,First Owner,1497 ,Manual,2022
+Maruti,Maruti Grand Vitara Delta AT,1250000.0,2023,Comprehensive,Petrol,5,14000 ,First Owner,1462 ,Automatic,2023
+Kia,Kia Sonet HTX Turbo DCT,1015000.0,2024,Comprehensive,Petrol,5,20000 ,First Owner,998 ,Automatic,2024
+Maruti,Maruti Brezza Vxi CNG,1025000.0,2024,Comprehensive,CNG,5,15000 ,First Owner,1462 ,Manual,2024
+Maruti,Maruti Ertiga ZXI Plus,1025000.0,2022,Own Damage,Petrol,7,20000 ,First Owner,1462 ,Manual,2022
+Kia,Kia Carens Premium,1150000.0,2023,Own Damage,Petrol,7,10000 ,First Owner,1497 ,Manual,2023
+MG,MG Astor Sharp CVT BSVI,1025000.0,2022,Comprehensive,Petrol,5,50000 ,First Owner,1498 ,Automatic,2022
+Kia,Kia Sonet HTX Diesel,1185000.0,2024,Own Damage,Diesel,5,16000 ,First Owner,1493 ,Manual,2024
+Kia,Kia Seltos HTK Plus G,1074000.0,2022,Own Damage,Petrol,5,33000 ,First Owner,1497 ,Manual,2022
+Maruti,Maruti Grand Vitara Delta,1160000.0,2024,Comprehensive,Petrol,5,15000 ,First Owner,1462 ,Manual,2024
+Ford,Ford Endeavour 3.2 Titanium AT 4X4,1300000.0,2016,Own Damage,Diesel,7,126000 ,First Owner,3198 ,Automatic,2016
+Volkswagen,Volkswagen Taigun 1.0 Topline AT,1285000.0,2023,Comprehensive,Petrol,5,44000 ,First Owner,999 ,Automatic,2023
+Kia,Kia Sonet GTX Plus Turbo DCT DT,1050000.0,2025,Comprehensive,Petrol,5,34000 ,First Owner,998 ,Automatic,2022
+Toyota,Toyota Hyryder S HYBRID BSVI,1257000.0,2023,Comprehensive,Petrol,5,38000 ,First Owner,1490 ,Automatic,2022
+Skoda,Skoda Kushaq 1.0 TSI Style AT,1450000.0,2023,Comprehensive,Petrol,5,9200 ,First Owner,999 ,Automatic,2023
+Kia,Kia Carens Prestige BSVI,1100000.0,2023,Comprehensive,Petrol,7,29000 ,First Owner,1497 ,Manual,2023
+MG,MG Hector Shine CVT,1500000.0,2023,Own Damage,Petrol,5,15500 ,Second Owner,1451 ,Automatic,2023
+MG,MG Astor Sharp Turbo AT BSVI,1050000.0,2022,Comprehensive,Petrol,5,54000 ,First Owner,1349 ,Automatic,2022
+Kia,Kia Carens Luxury Plus DCT,1500000.0,2023,Zero Dep,Petrol,7,12000 ,First Owner,1482 ,Automatic,2023
+Kia,Kia Carens Luxury Plus Turbo DCT 2022-2023,1440000.0,2022,Comprehensive,Petrol,7,38000 ,First Owner,1353 ,Automatic,2022
+Maruti,Maruti Brezza Zxi AT,1095000.0,2024,Comprehensive,Petrol,5,15000 ,First Owner,1462 ,Automatic,2024
+Hyundai,Hyundai Verna SX IVT,1275000.0,2023,Own Damage,Petrol,5,28000 ,First Owner,1497 ,Automatic,2023
+Toyota,Toyota Taisor G Turbo AT,1075000.0,2024,Comprehensive,Petrol,5,7000 ,First Owner,998 ,Automatic,2024
+Kia,Kia Seltos HTX IVT G,1095000.0,2021,Comprehensive,Petrol,5,41000 ,First Owner,1497 ,Automatic,2021
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1235000.0,2022,Own Damage,Petrol,4,26000 ,First Owner,1997 ,Automatic,2022
+Hyundai,Hyundai Creta SX Opt IVT BSVI,1275000.0,2021,Zero Dep,Petrol,5,45000 ,First Owner,1497 ,Automatic,2021
+Kia,Kia Seltos HTX IVT,1250000.0,2022,Own Damage,Petrol,5,66000 ,First Owner,1497 ,Automatic,2022
+Hyundai,Hyundai Verna SX Opt Turbo DCT DT,1350000.0,2023,Comprehensive,Petrol,5,51000 ,First Owner,1482 ,Automatic,2023
+Kia,Kia Seltos HTX IVT,1245000.0,2022,Comprehensive,Petrol,5,62000 ,First Owner,1497 ,Automatic,2022
+Mahindra,Mahindra XUV700 MX BSVI,1274000.0,2022,Own Damage,Petrol,5,20000 ,First Owner,1999 ,Manual,2022
+MG,MG Hector Sharp DCT,1050000.0,2020,Comprehensive,Petrol,5,49000 ,First Owner,1451 ,Automatic,2020
+Kia,Kia Sonet HTX Turbo DCT,1050000.0,2023,Comprehensive,Petrol,5,32000 ,First Owner,998 ,Automatic,2023
+BMW,BMW 5 Series 520d Luxury Line,1225000.0,2017,Comprehensive,Diesel,5,71000 ,Third Owner,1995 ,Automatic,2017
+MG,MG Astor Sharp Pro,1099000.0,2024,Comprehensive,Petrol,5,10000 ,First Owner,1498 ,Manual,2024
+Skoda,Skoda Slavia 1.0 TSI Style AT BSVI,1140000.0,2023,Comprehensive,Petrol,5,22000 ,First Owner,999 ,Automatic,2022
+Skoda,Skoda Slavia 1.0 TSI Style AT BSVI,1096000.0,2022,Comprehensive,Petrol,5,24000 ,First Owner,999 ,Automatic,2022
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1345000.0,2021,Comprehensive,Petrol,4,28000 ,First Owner,1997 ,Automatic,2021
+Honda,Honda Elevate VX Non RF,1195000.0,2024,Comprehensive,Petrol,5,18000 ,First Owner,1498 ,Manual,2024
+Kia,Kia Seltos HTX IVT G,1125000.0,2020,Comprehensive,Petrol,5,48000 ,First Owner,1497 ,Automatic,2020
+Kia,Kia Sonet HTX Diesel,1075000.0,2024,Own Damage,Diesel,5,30000 ,First Owner,1493 ,Manual,2024
+Hyundai,Hyundai Creta SX Diesel BSVI,1105000.0,2020,Own Damage,Diesel,5,20000 ,First Owner,1493 ,Manual,2020
+Hyundai,Hyundai Creta SX Opt IVT BSVI,1100000.0,2020,Own Damage,Petrol,5,24000 ,First Owner,1497 ,Automatic,2020
+Kia,Kia Seltos GTX Plus Diesel AT,1390000.0,2025,Third Party,Diesel,5,68000 ,First Owner,1493 ,Automatic,2022
+Kia,Kia Seltos Anniversary Edition IVT,1050000.0,2020,Comprehensive,Petrol,5,42000 ,Second Owner,1497 ,Automatic,2020
+Maruti,Maruti Grand Vitara Alpha,1350000.0,2024,Comprehensive,Petrol,5,30000 ,First Owner,1462 ,Manual,2024
+Kia,Kia Seltos HTX IVT,1399000.0,2023,Comprehensive,Petrol,5,39000 ,First Owner,1497 ,Automatic,2023
+Hyundai,Hyundai Creta S Plus Knight,1150000.0,2023,Comprehensive,Petrol,5,30000 ,First Owner,1497 ,Manual,2023
+Hyundai,Hyundai Creta 1.6 SX Automatic Diesel,1200000.0,2020,Comprehensive,Diesel,5,47000 ,First Owner,1582 ,Automatic,2020
+Kia,Kia Seltos HTK G,1049000.0,2022,Own Damage,Petrol,5,37000 ,First Owner,1497 ,Manual,2022
+Maruti,Maruti Grand Vitara Zeta Plus Hybrid CVT BSVI,1275000.0,2022,Comprehensive,Petrol,5,31000 ,First Owner,1490 ,Automatic,2022
+Volkswagen,Volkswagen Taigun 1.0 TSI Topline AT BSVI,1098000.0,2022,Comprehensive,Petrol,5,37810 ,First Owner,999 ,Automatic,2022
+Hyundai,Hyundai Creta 1.6 SX Automatic Diesel,1125000.0,2020,Own Damage,Diesel,5,78000 ,First Owner,1582 ,Automatic,2020
+Mahindra,Mahindra Alturas G4 4X4 AT BSIV,1600000.0,2019,Zero Dep,Diesel,7,60000 ,First Owner,2157 ,Automatic,2019
+MG,MG Hector Plus Sharp Pro CVT 7 Str,2000000.0,2025,Comprehensive,Petrol,7,8000 ,First Owner,1451 ,Automatic,2025
+MG,MG Hector Sharp Pro CVT,1840000.0,2024,Own Damage,Petrol,5,9600 ,First Owner,1451 ,Automatic,2024
+Kia,Kia Carens X-Line DCT 6 STR,1800000.0,2024,Own Damage,Petrol,6,7500 ,First Owner,1482 ,Automatic,2024
+BMW,BMW X1 sDrive 20d xLine,1790000.0,2018,Own Damage,Diesel,5,48000 ,Second Owner,1995 ,Automatic,2018
+Kia,Kia Seltos GTX Plus Turbo DCT,1675000.0,2023,Comprehensive,Petrol,5,34500 ,First Owner,1482 ,Automatic,2023
+Kia,Kia Seltos GTX Plus Diesel AT,1650000.0,2022,Own Damage,Diesel,5,9000 ,First Owner,1493 ,Automatic,2022
+Maruti,Maruti Grand Vitara Zeta Plus Hybrid CVT,1750000.0,2024,Comprehensive,Petrol,5,24000 ,First Owner,1490 ,Automatic,2024
+Mahindra,Mahindra XUV700 AX7 6Str AT,2000000.0,2024,Own Damage,Petrol,6,15000 ,First Owner,1999 ,Automatic,2024
+Mahindra,Mahindra Alturas G4 4X4 AT BSIV,1775000.0,2019,Comprehensive,Diesel,7,70000 ,First Owner,2157 ,Automatic,2019
+Mahindra,Mahindra XUV700 AX7 AT Luxury Pack BSVI,1950000.0,2022,Own Damage,Petrol,7,16000 ,First Owner,1999 ,Automatic,2022
+Hyundai,Hyundai Creta SX IVT,1735000.0,2024,Comprehensive,Petrol,5,16000 ,First Owner,1497 ,Automatic,2024
+MG,MG Hector Plus 1.5 Turbo Sharp Pro CVT BSVI,1700000.0,2023,Comprehensive,Petrol,6,31000 ,First Owner,1451 ,Automatic,2023
+Honda,Honda Elevate ZX CVT Non RF,1550000.0,2024,Comprehensive,Petrol,5,6000 ,First Owner,1498 ,Automatic,2024
+Hyundai,Hyundai Creta N Line N10 DCT,1875000.0,2024,Comprehensive,Petrol,5,13000 ,First Owner,1482 ,Automatic,2024
+Mahindra,Mahindra Scorpio N Z8L AT 2023-2025,1990000.0,2024,Comprehensive,Petrol,7,18000 ,First Owner,1997 ,Automatic,2024
+Kia,Kia Carens Luxury Plus iMT,1525000.0,2023,Comprehensive,Petrol,7,11246 ,First Owner,1482 ,Manual,2023
+Kia,Kia Seltos GTX Plus Turbo DCT,1850000.0,2024,Comprehensive,Petrol,5,14000 ,First Owner,1482 ,Automatic,2024
+MG,MG Hector Plus Savvy Pro CVT,1975000.0,2024,Comprehensive,Petrol,6,3206 ,First Owner,1451 ,Automatic,2024
+MG,MG Hector Plus Sharp Pro CVT 7 Str,1890000.0,2024,Own Damage,Petrol,7,6000 ,First Owner,1451 ,Automatic,2024
+MG,MG Hector Savvy Pro CVT 2023-2025,1725000.0,2024,Own Damage,Petrol,5,14000 ,,1451 ,Automatic,2024
+Kia,Kia Seltos GTX Plus Turbo DCT,1750000.0,2023,Zero Dep,Petrol,5,11000 ,First Owner,1482 ,Automatic,2023
+Kia,Kia Carens Luxury Plus iMT BSVI,1525000.0,2023,Own Damage,Petrol,7,7100 ,First Owner,1482 ,Automatic,2023
+Toyota,Toyota Innova Crysta 2.4 ZX 7 STR AT,2000000.0,2022,Comprehensive,Diesel,7,97000 ,First Owner,2393 ,Automatic,2022
+Hyundai,Hyundai Creta SX Tech iVT,1750000.0,2024,Comprehensive,Petrol,5,16000 ,First Owner,1497 ,Automatic,2024
+Toyota,Toyota Innova Crysta 2.4 GX 7Str,1975000.0,2024,Third Party,Diesel,7,23000 ,First Owner,2393 ,Manual,2024
+MG,MG Hector Sharp EX CVT,1800000.0,2023,Own Damage,Petrol,5,14000 ,First Owner,1451 ,Automatic,2023
+MG,MG Hector 1.5 Turbo Savvy Pro CVT BSVI,1625000.0,2023,Comprehensive,Petrol,5,49000 ,First Owner,1451 ,Automatic,2023
+Hyundai,Hyundai Creta SX IVT,1525000.0,2023,Comprehensive,Petrol,5,10000 ,First Owner,1497 ,Automatic,2023
+Kia,Kia Carens Luxury Plus DCT 6 STR BSVI,1525000.0,2023,Zero Dep,Petrol,6,24000 ,First Owner,1482 ,Automatic,2023
+Toyota,Toyota Hyryder V HYBRID,1910000.0,2024,Comprehensive,Petrol,5,8000 ,First Owner,1490 ,Automatic,2024
+Toyota,Toyota Hyryder G HYBRID,1565000.0,2023,Comprehensive,Petrol,5,67080 ,First Owner,1490 ,Automatic,2023
+Toyota,Toyota Innova Crysta 2.4 GX 7 STR AT,1700000.0,2020,Comprehensive,Diesel,7,35000 ,Second Owner,2393 ,Automatic,2020
+Jeep,Jeep Compass 1.4 Limited Opt DCT BSVI,1800000.0,2021,Own Damage,Petrol,5,50000 ,Second Owner,1368 ,Automatic,2021
+Kia,Kia Seltos HTX Diesel AT,1700000.0,2024,Comprehensive,Diesel,5,41000 ,First Owner,1493 ,Automatic,2024
+BMW,BMW X1 sDrive20d Expedition,1900000.0,2020,Own Damage,Diesel,5,70000 ,First Owner,1995 ,Automatic,2020
+Audi,Audi Q3 30 TFSI Premium FWD,1675000.0,2017,Comprehensive,Petrol,5,58000 ,First Owner,1395 ,Automatic,2017
+Tata,Tata Safari XZA Plus (O) AT BSVI,1790000.0,2023,Zero Dep,Diesel,7,30000 ,First Owner,1956 ,Automatic,2023
+Toyota,Toyota Innova Crysta 2.4 GX 7 STR AT,1700000.0,2020,Own Damage,Diesel,7,54000 ,First Owner,2393 ,Automatic,2020
+Mahindra,Mahindra Scorpio N Z4 Diesel AT BSVI,1750000.0,2024,Own Damage,Diesel,7,22000 ,First Owner,2198 ,Automatic,2024
+Toyota,Toyota Hyryder G HYBRID,1700000.0,2024,Own Damage,Petrol,5,39770 ,First Owner,1490 ,Automatic,2024
+Mercedes-Benz,Mercedes-Benz GLA Class 200,1800000.0,2016,Own Damage,Petrol,5,70000 ,Second Owner,1991 ,Automatic,2016
+MG,MG Hector Sharp CVT,1599000.0,2023,Comprehensive,Petrol,5,24600 ,First Owner,1451 ,Automatic,2023
+Kia,Kia Seltos GTX Plus Diesel AT,1650000.0,2022,Third Party,Diesel,5,24000 ,First Owner,1493 ,Automatic,2022
+Kia,Kia Seltos HTX IVT,1525000.0,2023,Comprehensive,Petrol,5,30000 ,First Owner,1497 ,Automatic,2023
+MG,MG Hector Sharp CVT,1675000.0,2023,Comprehensive,Petrol,5,18000 ,First Owner,1451 ,Automatic,2023
+Kia,Kia Carens Luxury Opt Diesel AT,1760000.0,2024,Comprehensive,Diesel,7,5800 ,First Owner,1493 ,Automatic,2023
+Hyundai,Hyundai Alcazar Signature (O) AT,1795000.0,2023,Comprehensive,Petrol,6,12000 ,First Owner,1999 ,Automatic,2023
+Honda,Honda Elevate VX CVT Non RF,1600000.0,2025,Own Damage,Petrol,5,10000 ,First Owner,1498 ,Automatic,2025
+Kia,Kia Seltos GTX Plus Turbo DCT,1790000.0,2024,Comprehensive,Petrol,5,25543 ,First Owner,1482 ,Automatic,2024
+Kia,Kia Seltos HTX Diesel AT,1799000.0,2024,Comprehensive,Diesel,5,39999 ,First Owner,1493 ,Automatic,2024
+MG,MG Hector Plus Sharp Pro CVT,1975000.0,2025,Comprehensive,Petrol,6,7000 ,First Owner,1451 ,Automatic,2025
+MG,MG Hector Sharp Pro CVT,1800000.0,2024,Own Damage,Petrol,5,15000 ,First Owner,1451 ,Automatic,2024
+Volkswagen,Volkswagen Taigun 1.5 TSI GT Plus DSG ES,1650000.0,2024,Comprehensive,Petrol,5,29000 ,First Owner,1498 ,Automatic,2024
+Ford,Ford Endeavour 3.2 Titanium AT 4X4,1650000.0,2017,Own Damage,Diesel,7,100000 ,Second Owner,3198 ,Automatic,2017
+MG,MG Hector Plus Savvy Pro CVT,2000000.0,2024,Own Damage,Petrol,6,3000 ,First Owner,1451 ,Automatic,2024
+MG,MG Hector Plus Sharp Pro CVT,1890000.0,2024,Third Party,Petrol,6,9800 ,First Owner,1451 ,Automatic,2024
+Mahindra,Mahindra XUV700 AX5 7 Str Diesel AT,1875000.0,2023,Comprehensive,Diesel,7,39000 ,First Owner,2198 ,Automatic,2023
+MG,MG Hector 1.5 Turbo Savvy Pro CVT BSVI,1750000.0,2023,Comprehensive,Petrol,5,18000 ,First Owner,1451 ,Automatic,2023
+Audi,Audi A6 35 TDI,1650000.0,2017,Comprehensive,Diesel,5,37000 ,First Owner,1968 ,Automatic,2017
+Audi,Audi A3 35 TFSI Premium Plus,1900000.0,2019,Comprehensive,Petrol,5,55419 ,First Owner,1395 ,Automatic,2019
+Mahindra,Mahindra Scorpio N Z8 Diesel 4x4 AT BSVI,1925000.0,2022,Comprehensive,Diesel,7,67000 ,First Owner,2198 ,Automatic,2022
+Audi,Audi A4 30 TFSI Premium Plus,1875000.0,2017,Comprehensive,Petrol,5,45068 ,First Owner,1395 ,Automatic,2016
+Kia,Kia Seltos GTX Plus Diesel AT,1900000.0,2024,Own Damage,Diesel,5,55000 ,First Owner,1493 ,Automatic,2024
+MG,MG Hector BlackStorm CVT,1800000.0,2024,Comprehensive,Petrol,5,15000 ,First Owner,1451 ,Automatic,2024
+Kia,Kia Carnival Premium 8 STR,1950000.0,2020,Own Damage,Diesel,8,90000 ,First Owner,2199 ,Automatic,2020
+Honda,Honda Elevate ZX CVT Non RF,1550000.0,2025,Own Damage,Petrol,5,30000 ,First Owner,1498 ,Automatic,2025
+Kia,Kia Seltos GTX Plus Turbo DCT,1850000.0,2025,Comprehensive,Petrol,5,24500 ,First Owner,1482 ,Automatic,2024
+Audi,Audi A6 35 TDI,1650000.0,2017,Own Damage,Diesel,5,30000 ,Second Owner,1968 ,Automatic,2017
+Volvo,Volvo S60 D4 SUMMUM,1725000.0,2018,Comprehensive,Diesel,5,40000 ,First Owner,1984 ,Automatic,2018
+Kia,Kia Carens Luxury Plus iMT BSVI,1525000.0,2023,Own Damage,Petrol,7,7100 ,First Owner,1482 ,Automatic,2023
+Mahindra,Mahindra XUV700 AX7 AT BSVI,1750000.0,2022,Own Damage,Petrol,7,70000 ,First Owner,1999 ,Automatic,2022
+MG,MG Hector Sharp CVT,1550000.0,2023,Comprehensive,Petrol,5,31000 ,First Owner,1451 ,Automatic,2023
+MG,MG Hector Plus Sharp Pro CVT 7 Str,1725000.0,2024,Comprehensive,Petrol,7,35000 ,First Owner,1451 ,Automatic,2024
+Tata,Tata Safari XZA Plus AT BSVI,1575000.0,2022,Comprehensive,Diesel,7,57000 ,First Owner,1956 ,Automatic,2022
+Audi,Audi A4 35 TDI Technology,1800000.0,2018,Own Damage,Diesel,5,95000 ,First Owner,1968 ,Automatic,2017
+Kia,Kia Carens Luxury Plus DCT 6 STR BSVI,1525000.0,2023,Zero Dep,Petrol,6,24000 ,First Owner,1482 ,Automatic,2023
+Audi,Audi A6 35 TDI,1850000.0,2025,Comprehensive,Diesel,5,55000 ,Second Owner,1968 ,Automatic,2019
+Tata,Tata Safari Pure,1650000.0,2025,Own Damage,Diesel,7,11115 ,First Owner,1956 ,Manual,2025
+MG,MG Hector Plus Sharp Pro CVT 7 Str,1899000.0,2024,Comprehensive,Petrol,7,11000 ,First Owner,1451 ,Automatic,2024
+Maruti,Maruti Grand Vitara Alpha AT BSVI,1600000.0,2022,Own Damage,Petrol,5,42000 ,First Owner,1462 ,Automatic,2022
+Mahindra,Mahindra XUV700 AX7 6Str AT,2000000.0,2024,Own Damage,Petrol,6,15000 ,First Owner,1999 ,Automatic,2024
+Toyota,Toyota Innova Crysta 2.4 GX 7 STR AT,1750000.0,2020,Comprehensive,Diesel,7,33000 ,First Owner,2393 ,Automatic,2020
+Hyundai,Hyundai Tucson GL Opt AT,1575000.0,2020,Comprehensive,Petrol,5,30000 ,First Owner,1999 ,Automatic,2020
+Kia,Kia Seltos GTX Diesel AT,1799000.0,2024,Own Damage,Diesel,5,33000 ,First Owner,1493 ,Automatic,2024
+Mercedes-Benz,Mercedes-Benz C-Class Prime C 220d,1800000.0,2018,Own Damage,Diesel,5,85000 ,Second Owner,1950 ,Automatic,2018
+Kia,Kia Seltos GTX Plus Turbo DCT,1725000.0,2023,Comprehensive,Petrol,5,41000 ,First Owner,1482 ,Automatic,2023
+Audi,Audi Q3 30 TFSI Premium FWD,1675000.0,2017,Comprehensive,Petrol,5,58000 ,First Owner,1395 ,Automatic,2017
+Tata,Tata Safari XZA Plus (O) AT BSVI,1790000.0,2023,Zero Dep,Diesel,7,30000 ,First Owner,1956 ,Automatic,2023
+Maruti,Maruti Grand Vitara Alpha Plus Hybrid CVT,1845000.0,2024,Zero Dep,Petrol,5,18000 ,First Owner,1490 ,Automatic,2024
+Audi,Audi Q2 Technology,1925000.0,2021,Third Party,Petrol,5,78000 ,First Owner,1984 ,Automatic,2021
+Jeep,Jeep Compass 1.4 Limited Opt DCT BSVI,1800000.0,2021,Own Damage,Petrol,5,50000 ,Second Owner,1368 ,Automatic,2021
+Mahindra,Mahindra Scorpio N Z8L 6 Str AT BSVI,1975000.0,2023,Own Damage,Petrol,6,10000 ,First Owner,1997 ,Automatic,2023
+Audi,Audi Q3 35 TDI Quattro Premium Plus,1650000.0,2018,Own Damage,Diesel,5,54000 ,First Owner,1968 ,Automatic,2018
+Skoda,Skoda Octavia Style,1775000.0,2021,Own Damage,Petrol,5,46000 ,First Owner,1984 ,Automatic,2021
+Hyundai,Hyundai Creta SX (O),1590000.0,2024,Zero Dep,Petrol,5,31000 ,First Owner,1497 ,Manual,2024
+Toyota,Toyota Camry Hybrid,1690000.0,2017,Own Damage,Petrol,5,83000 ,Second Owner,2494 ,Automatic,2017
+Hyundai,Hyundai Creta SX (O),1800000.0,2024,Own Damage,Petrol,5,9500 ,First Owner,1497 ,Manual,2024
+Toyota,Toyota Fortuner 2.8 2WD AT BSIV,1975000.0,2017,Own Damage,Diesel,7,213000 ,First Owner,2755 ,Automatic,2017
+Mercedes-Benz,Mercedes-Benz GLA Class 200 Sport Edition,1790000.0,2016,Own Damage,Petrol,5,37000 ,First Owner,1991 ,Automatic,2016
+Jaguar,Jaguar XE Prestige,1750000.0,2017,Own Damage,Petrol,5,40000 ,First Owner,1999 ,Automatic,2017
+MG,MG Hector Plus Sharp Pro 2023-2025,1890000.0,2024,Third Party,Petrol,6,9800 ,First Owner,1451 ,Manual,2024
+Honda,Honda Elevate VX CVT Non RF,1600000.0,2025,Own Damage,Petrol,5,10000 ,First Owner,1498 ,Automatic,2025
+Audi,Audi A4 30 TFSI Premium Plus,1990000.0,2017,Own Damage,Petrol,5,29000 ,Second Owner,1395 ,Automatic,2017
+Toyota,Toyota Innova Crysta 2.4 GX AT,1700000.0,2020,Comprehensive,Diesel,7,64000 ,First Owner,2393 ,Automatic,2020
+Audi,Audi A4 30 TFSI Technology,1875000.0,2019,Own Damage,Petrol,5,70000 ,Second Owner,1395 ,Automatic,2017
+Mahindra,Mahindra Scorpio N Z8 Diesel AT BSVI,1885000.0,2023,Own Damage,Diesel,7,35000 ,Second Owner,2198 ,Automatic,2023
+Land,Land Rover Discovery Sport SD4 HSE Luxury 7S,1550000.0,2025,Own Damage,Diesel,7,98000 ,Second Owner,2179 ,Automatic,2016
+Toyota,Toyota Innova Crysta 2.4 GX 7 STR AT,1700000.0,2020,Comprehensive,Diesel,7,35000 ,Second Owner,2393 ,Automatic,2020
+Audi,Audi A6 35 TDI,1650000.0,2017,Comprehensive,Diesel,5,37000 ,First Owner,1968 ,Automatic,2017
+MG,MG Hector 1.5 Turbo Savvy Pro CVT BSVI,1650000.0,2023,Own Damage,Petrol,5,17000 ,First Owner,1451 ,Automatic,2023
+Kia,Kia Carens Luxury Opt Diesel AT,1760000.0,2024,Comprehensive,Diesel,7,5800 ,First Owner,1493 ,Automatic,2024
+MG,MG Hector 1.5 Turbo Sharp pro CVT BSVI,1675000.0,2023,Third Party,Petrol,5,18000 ,First Owner,1451 ,Automatic,2023
+Toyota,Toyota Innova Crysta 2.8 GX AT BSIV,1525000.0,2019,Own Damage,Diesel,7,67213 ,First Owner,2755 ,Automatic,2019
+Toyota,Toyota Fortuner 2.8 2WD AT BSIV,2000000.0,2017,Own Damage,Diesel,7,140000 ,First Owner,2755 ,Automatic,2017
+Land,Land Rover Range Rover Evoque 2.0 TD4 Pure,1950000.0,2017,Comprehensive,Diesel,5,88000 ,Second Owner,1999 ,Automatic,2017
+Audi,Audi A4 30 TFSI Premium Plus,1950000.0,2018,Comprehensive,Petrol,5,95000 ,First Owner,1395 ,Automatic,2018
+Kia,Kia Seltos GTX Plus Turbo DCT,1550000.0,2023,Own Damage,Petrol,5,30000 ,Second Owner,1482 ,Automatic,2023
+Maruti,Maruti Grand Vitara Alpha Plus Hybrid CVT BSVI,1775000.0,2024,Comprehensive,Petrol,5,20000 ,First Owner,1490 ,Automatic,2023
+Hyundai,Hyundai Alcazar Signature (O) AT,1795000.0,2023,Comprehensive,Petrol,6,12000 ,First Owner,1999 ,Automatic,2023
+MG,MG Astor Sharp CVT BSVI,1025000.0,2022,Comprehensive,Petrol,5,54000 ,First Owner,1498 ,Automatic,2022
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1345000.0,2022,Own Damage,Petrol,4,11000 ,First Owner,1997 ,Automatic,2022
+Kia,Kia Seltos HTX IVT G,1125000.0,2020,Comprehensive,Petrol,5,48000 ,First Owner,1497 ,Automatic,2020
+Toyota,Toyota Hyryder S HYBRID BSVI,1257000.0,2023,Comprehensive,Petrol,5,38000 ,First Owner,1490 ,Automatic,2022
+Jeep,Jeep Compass 2.0 Limited Plus AT,1295000.0,2020,Third Party,Diesel,5,68000 ,First Owner,1956 ,Automatic,2020
+Honda,Honda CR-V 2.0L 2WD AT,1190000.0,2016,Own Damage,Petrol,5,55000 ,Second Owner,1997 ,Automatic,2016
+Mahindra,Mahindra Thar LX 4WD Hard Top Diesel BSVI,1325000.0,2022,Own Damage,Diesel,4,40000 ,First Owner,2184 ,Manual,2022
+Hyundai,Hyundai Venue S Opt Turbo DCT,1025000.0,2023,Comprehensive,Petrol,5,34000 ,First Owner,998 ,Automatic,2023
+Hyundai,Hyundai Creta SX,1295000.0,2023,Own Damage,Petrol,5,39000 ,First Owner,1497 ,Manual,2023
+Kia,Kia Seltos HTX IVT,1325000.0,2023,Comprehensive,Petrol,5,67000 ,First Owner,1497 ,Automatic,2023
+Hyundai,Hyundai Venue SX,1050000.0,2023,Own Damage,Petrol,5,38000 ,First Owner,1197 ,Manual,2023
+BMW,BMW 5 Series 520d Luxury Line,1225000.0,2017,Comprehensive,Diesel,5,71000 ,Third Owner,1995 ,Automatic,2017
+Hyundai,Hyundai Creta SX BSVI,1150000.0,2022,Comprehensive,Petrol,5,37200 ,First Owner,1497 ,Manual,2022
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1150000.0,2021,Comprehensive,Petrol,4,35000 ,First Owner,1997 ,Automatic,2021
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1225000.0,2022,Own Damage,Petrol,4,72245 ,Second Owner,1997 ,Automatic,2022
+MG,MG Hector Sharp AT BSIV,1145000.0,2020,Zero Dep,Petrol,5,45000 ,First Owner,1451 ,Automatic,2020
+Hyundai,Hyundai Creta SX Diesel AT BSVI,1090000.0,2021,Own Damage,Diesel,5,66000 ,First Owner,1493 ,Automatic,2021
+Tata,Tata Harrier XZA AT BSVI,1185000.0,2021,Own Damage,Diesel,5,64000 ,First Owner,1956 ,Automatic,2021
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1249000.0,2022,Comprehensive,Petrol,4,17000 ,First Owner,1997 ,Automatic,2022
+Kia,Kia Seltos GTX Plus DCT,1100000.0,2020,Comprehensive,Petrol,5,40000 ,First Owner,1353 ,Automatic,2020
+Hyundai,Hyundai Creta 1.6 SX Automatic Diesel,1150000.0,2020,Zero Dep,Diesel,5,83000 ,First Owner,1582 ,Automatic,2020
+Kia,Kia Sonet HTX Turbo DCT,1050000.0,2023,Comprehensive,Petrol,5,32000 ,First Owner,998 ,Automatic,2023
+Hyundai,Hyundai Alcazar 1.5 Signature (O) 7-Seater Diesel AT,1275000.0,2021,Own Damage,Diesel,7,55000 ,First Owner,1498 ,Automatic,2021
+Hyundai,Hyundai Venue N Line N8 turbo DCT,1075000.0,2023,Zero Dep,Petrol,5,32500 ,First Owner,998 ,Automatic,2023
+Hyundai,Hyundai Verna SX IVT,1250000.0,2023,Comprehensive,Petrol,5,28000 ,First Owner,1497 ,Automatic,2023
+Mahindra,Mahindra Thar LX Hard Top AT RWD,1371000.0,2024,Own Damage,Petrol,4,7700 ,First Owner,1997 ,Automatic,2024
+Maruti,Maruti Grand Vitara Delta,1225000.0,2024,Own Damage,Petrol,5,16000 ,First Owner,1462 ,Manual,2024
+Mahindra,Mahindra Scorpio S5,1175000.0,2022,Own Damage,Diesel,7,44000 ,First Owner,2179 ,Manual,2022
+Skoda,Skoda Slavia 1.0 TSI Style AT BSVI,1140000.0,2023,Comprehensive,Petrol,5,22000 ,First Owner,999 ,Automatic,2022
+Kia,Kia Seltos HTK Plus AT D,1250000.0,2021,Own Damage,Diesel,5,47000 ,First Owner,1493 ,Automatic,2021
+Maruti,Maruti Jimny Alpha,1175000.0,2023,Zero Dep,Petrol,4,19000 ,First Owner,1462 ,Manual,2023
+MG,MG Hector Sharp DCT,1250000.0,2021,Own Damage,Petrol,5,35000 ,First Owner,1451 ,Automatic,2021
+Kia,Kia Carens Premium,1150000.0,2023,Own Damage,Petrol,7,10000 ,First Owner,1497 ,Manual,2023
+Mahindra,Mahindra Thar LX 4WD Hard Top Diesel BSVI,1350000.0,2022,Own Damage,Diesel,4,30000 ,First Owner,2184 ,Manual,2022
+Volkswagen,Volkswagen Taigun 1.5 TSI GT Plus DSG,1350000.0,2022,Comprehensive,Petrol,5,45000 ,First Owner,1498 ,Automatic,2022
+MG,MG Astor Savvy CVT Red BSVI,1045000.0,2022,Own Damage,Petrol,5,54000 ,First Owner,1498 ,Automatic,2022
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1375000.0,2022,Own Damage,Petrol,4,39000 ,First Owner,1997 ,Automatic,2022
+Hyundai,Hyundai Creta SX Opt Turbo DCT,1190000.0,2021,Comprehensive,Petrol,5,48000 ,First Owner,1397 ,Automatic,2021
+Hyundai,Hyundai Creta SX Executive BSVI,1199000.0,2021,Own Damage,Petrol,5,17500 ,First Owner,1497 ,Manual,2021
+Toyota,Toyota Innova Crysta 2.4 GX MT 8S BSIV,1350000.0,2019,Third Party,Diesel,8,90000 ,First Owner,2393 ,Manual,2019
+Mahindra,Mahindra Thar LX 4WD Hard Top AT BSVI,1285000.0,2023,Comprehensive,Petrol,4,29000 ,First Owner,1997 ,Automatic,2023
+Hyundai,Hyundai Creta SX Opt IVT BSVI,1360000.0,2021,Zero Dep,Petrol,5,40000 ,First Owner,1497 ,Automatic,2021
+Kia,Kia Carens Prestige Plus DCT BSVI,1350000.0,2023,Comprehensive,Petrol,7,32563 ,First Owner,1482 ,Automatic,2023
+Kia,Kia Seltos HTX IVT G,1150000.0,2021,Own Damage,Petrol,5,67000 ,First Owner,1497 ,Automatic,2021
+Honda,Honda City VX CVT,1250000.0,2022,Comprehensive,Petrol,5,13000 ,First Owner,1498 ,Automatic,2022
+Kia,Kia Seltos GTX Plus,1275000.0,2021,Own Damage,Petrol,5,48292 ,First Owner,1353 ,Manual,2021
+Tata,Tata Curvv Pure Plus S Diesel DCA,1500000.0,2025,Own Damage,Diesel,5,5000 ,Second Owner,1497 ,Automatic,2025
+Toyota,Toyota Rumion G AT,1150000.0,2025,Own Damage,Petrol,7,4500 ,First Owner,1462 ,Automatic,2025
+MG,MG Hector Sharp DCT,1225000.0,2021,Third Party,Petrol,5,46560 ,First Owner,1451 ,Automatic,2021
+Kia,Kia Seltos HTX IVT,1250000.0,2022,Own Damage,Petrol,5,62000 ,First Owner,1497 ,Automatic,2022
+Mahindra,Mahindra Thar LX 4WD Hard Top BSVI,1235000.0,2022,Comprehensive,Petrol,4,38000 ,First Owner,1997 ,Manual,2022
+Toyota,Toyota Hyryder E,1125000.0,2023,Own Damage,Petrol,5,28000 ,First Owner,1462 ,Manual,2023
+Mahindra,Mahindra Scorpio S5,1175000.0,2022,Comprehensive,Diesel,7,45800 ,First Owner,2179 ,Manual,2022
+Volkswagen,Volkswagen Taigun 1.0 TSI Topline BSVI,1050000.0,2023,Comprehensive,Petrol,5,21000 ,First Owner,999 ,Manual,2023
+Maruti,Maruti Ertiga ZXI CNG,1030000.0,2022,Zero Dep,CNG,7,80000 ,First Owner,1462 ,Manual,2022
+MG,MG Astor Savvy CVT Red BSVI,1095000.0,2021,Own Damage,Petrol,5,15000 ,,1498 ,Automatic,2021
+Kia,Kia Carens Luxury Plus Turbo DCT 2022-2023,1440000.0,2022,Comprehensive,Petrol,7,38000 ,First Owner,1353 ,Automatic,2022
+Kia,Kia Seltos GTX Plus DCT,1200000.0,2020,Own Damage,Petrol,5,61500 ,First Owner,1353 ,Automatic,2020
+MG,MG Hector Plus Sharp CVT,1249000.0,2022,Comprehensive,Petrol,6,42000 ,First Owner,1451 ,Automatic,2022
+Hyundai,Hyundai Venue S Opt Turbo DCT,1075000.0,2023,Own Damage,Petrol,5,46000 ,First Owner,998 ,Automatic,2023
+Maruti,Maruti Baleno Zeta,640000.0,2022,Comprehensive,Petrol,5,47000 ,First Owner,1197 ,Manual,2022
+Kia,Kia Sonet HTK Plus BSVI,783000.0,2022,Comprehensive,Petrol,5,28000 ,First Owner,1197 ,Manual,2022
+Kia,Kia Seltos HTK G,875000.0,2020,Own Damage,Petrol,5,47000 ,First Owner,1497 ,Manual,2020
+Hyundai,Hyundai Creta EX Diesel BSVI,900000.0,2020,Third Party,Diesel,5,33000 ,First Owner,1493 ,Manual,2020
+Kia,Kia Seltos HTE G,960000.0,2023,Own Damage,Petrol,5,10000 ,First Owner,1497 ,Manual,2023
+Kia,Kia Sonet HTX Turbo iMT BSVI,749000.0,2021,Own Damage,Petrol,5,44000 ,First Owner,998 ,Manual,2021
+MG,MG Hector Sharp DCT,990000.0,2020,Comprehensive,Petrol,5,55000 ,First Owner,1451 ,Automatic,2019
+Toyota,Toyota Yaris J CVT,660000.0,2019,Own Damage,Petrol,5,68000 ,First Owner,1496 ,Automatic,2019
+Kia,Kia Sonet HTK,850000.0,2023,Own Damage,Petrol,5,35000 ,First Owner,1197 ,Manual,2023
+MG,MG Hector Sharp DCT,998000.0,2020,Comprehensive,Petrol,5,52293 ,First Owner,1451 ,Automatic,2020
+Hyundai,Hyundai Venue SX Plus Turbo DCT BSIV,660000.0,2019,Zero Dep,Petrol,5,60000 ,First Owner,998 ,Automatic,2019
+Honda,Honda City i-VTEC V,565000.0,2018,Comprehensive,Petrol,5,56000 ,First Owner,1497 ,Manual,2018
+Maruti,Maruti Vitara Brezza VXI,585000.0,2020,Own Damage,Petrol,5,58000 ,First Owner,1462 ,Manual,2020
+Hyundai,Hyundai Venue S Turbo DCT BSIV,711000.0,2019,Comprehensive,Petrol,5,65000 ,First Owner,998 ,Automatic,2019
+Tata,Tata Nexon KRAZ Plus AMT Diesel,545000.0,2019,Comprehensive,Diesel,5,58127 ,First Owner,1497 ,Automatic,2019
+Tata,Tata Nexon Creative Plus S,997000.0,2024,Own Damage,Petrol,5,10000 ,First Owner,1199 ,Manual,2024
+Kia,Kia Sonet HTX Turbo iMT,995000.0,2024,Comprehensive,Petrol,5,28000 ,First Owner,998 ,Automatic,2024
+Hyundai,Hyundai i20 1.4 Asta Option,575000.0,2018,Own Damage,Diesel,5,91000 ,First Owner,1396 ,Manual,2018
+Renault,Renault Triber RXT BSVI,525000.0,2022,Comprehensive,Petrol,7,47000 ,First Owner,999 ,Manual,2022
+Hyundai,Hyundai Venue SX Plus Turbo DCT,898000.0,2021,Comprehensive,Petrol,5,39000 ,First Owner,998 ,Automatic,2021
+Kia,Kia Sonet HTK Plus Turbo iMT BSVI,725000.0,2020,Own Damage,Petrol,5,63000 ,First Owner,998 ,Manual,2020
+Hyundai,Hyundai Venue S BSVI,590000.0,2022,Zero Dep,Petrol,5,70000 ,First Owner,1197 ,Manual,2022
+Mahindra,Mahindra Bolero Power Plus SLE,580000.0,2018,Third Party,Diesel,7,80000 ,First Owner,1493 ,Manual,2018
+Maruti,Maruti Swift Dzire LXI BSVI,545000.0,2023,Comprehensive,Petrol,5,33156 ,First Owner,1197 ,Manual,2023
+Kia,Kia Seltos HTX G,964000.0,2021,Own Damage,Petrol,5,72000 ,First Owner,1497 ,Manual,2021
+Tata,Tata Nexon 1.2 Revotron XE,565000.0,2019,Own Damage,Petrol,5,31000 ,First Owner,1198 ,Manual,2019
+Honda,Honda City i VTEC CVT VX,525000.0,2015,Own Damage,Petrol,5,46000 ,First Owner,1497 ,Automatic,2015
+Maruti,Maruti Ciaz Delta BSIV,560000.0,2018,Own Damage,Petrol,5,61000 ,First Owner,1462 ,Manual,2018
+Tata,Tata Nexon 1.5 Revotorq XM,525000.0,2019,Comprehensive,Diesel,5,62000 ,First Owner,1497 ,Manual,2019
+Honda,Honda City i VTEC CVT VX,549000.0,2016,Comprehensive,Petrol,5,80000 ,Second Owner,1497 ,Automatic,2016
+Kia,Kia Sonet HTX Diesel AT,925000.0,2023,Own Damage,Diesel,5,45000 ,First Owner,1493 ,Automatic,2023
+Hyundai,Hyundai Creta 1.6 SX Automatic,699000.0,2019,Own Damage,Petrol,5,85000 ,Second Owner,1591 ,Automatic,2019
+Honda,Honda City i VTEC CVT VX,565000.0,2016,Third Party,Petrol,5,79000 ,First Owner,1497 ,Automatic,2016
+Kia,Kia Seltos HTX IVT G,995000.0,2020,Comprehensive,Petrol,5,69000 ,First Owner,1497 ,Automatic,2020
+Kia,Kia Sonet GTX Plus Turbo iMT BSVI,950000.0,2021,Comprehensive,Petrol,5,48000 ,First Owner,998 ,Manual,2021
+Kia,Kia Carens Prestige,1000000.0,2023,Own Damage,Petrol,7,50000 ,First Owner,1497 ,Manual,2023
+Hyundai,Hyundai Venue S Turbo DCT BSIV,699000.0,2019,Comprehensive,Petrol,5,38013 ,First Owner,998 ,Automatic,2019
+Audi,Audi A6 2.8 FSI,650000.0,2011,Own Damage,Petrol,5,69000 ,Third Owner,2773 ,Automatic,2011
+Tata,Tata Nexon EV XZ Plus,700000.0,2021,Third Party,Electric,5,70000 ,First Owner,,Automatic,2021
+Honda,Honda Amaze V CVT Petrol BSIV,519000.0,2018,Zero Dep,Petrol,5,37500 ,First Owner,1199 ,Automatic,2018
+Maruti,Maruti FRONX Delta Plus AMT,835000.0,2025,Zero Dep,Petrol,5,10000 ,First Owner,1197 ,Automatic,2025
+Kia,Kia Seltos GTX Plus Diesel AT,1000000.0,2019,Comprehensive,Diesel,5,98000 ,First Owner,1493 ,Automatic,2019
+MG,MG Hector Sharp Diesel MT,975000.0,2020,Zero Dep,Diesel,5,85000 ,First Owner,1956 ,Manual,2020
+Jeep,Jeep Compass 2.0 Longitude BSIV,650000.0,2017,Own Damage,Diesel,5,49000 ,First Owner,1956 ,Manual,2017
+Toyota,Toyota Innova Crysta 2.7 VX MT BSIV,800000.0,2016,Own Damage,Petrol,7,112000 ,First Owner,2694 ,Manual,2016
+Hyundai,Hyundai Creta 1.6 VTVT AT SX Plus,625000.0,2016,Own Damage,Petrol,5,54200 ,First Owner,1591 ,Automatic,2016
+Hyundai,Hyundai Creta 1.6 VTVT SX Plus,620000.0,2017,Own Damage,Petrol,5,75045 ,First Owner,1591 ,Manual,2017
+Nissan,Nissan Kicks 1.5 XV,510000.0,2021,Third Party,Petrol,5,90000 ,First Owner,1498 ,Manual,2021
+Tata,Tata Altroz XZ Plus Dark Edition BSVI,588000.0,2022,Comprehensive,Petrol,5,42000 ,First Owner,1199 ,Manual,2022
+Toyota,Toyota Glanza G CNG,825000.0,2024,Comprehensive,CNG,5,27000 ,First Owner,1197 ,Manual,2024
+Maruti,Maruti Swift Dzire VXI,620000.0,2021,Own Damage,Petrol,5,17600 ,First Owner,1197 ,Manual,2021
+Kia,Kia Sonet GTX Plus Turbo iMT BSVI,765000.0,2021,Comprehensive,Petrol,5,55000 ,First Owner,998 ,Manual,2021
+Skoda,Skoda Octavia 2.0 TDI AT L K,1000000.0,2018,Own Damage,Diesel,5,79000 ,First Owner,1968 ,Automatic,2018
+Maruti,Maruti Baleno Zeta,815000.0,2024,Zero Dep,Petrol,5,5700 ,First Owner,1197 ,Manual,2024
+Kia,Kia Sonet HTX Turbo iMT Anniversary Edition,800000.0,2022,Own Damage,Petrol,5,16200 ,First Owner,998 ,Automatic,2022
+Hyundai,Hyundai Creta 1.6 VTVT SX Plus,995000.0,2019,Comprehensive,Petrol,5,41900 ,First Owner,1591 ,Manual,2019
+Hyundai,Hyundai Creta 1.6 VTVT S,650000.0,2016,Own Damage,Petrol,5,65000 ,First Owner,1591 ,Manual,2016
+Mahindra,Mahindra Scorpio 1.99 S10,650000.0,2016,Own Damage,Diesel,7,56000 ,First Owner,1997 ,Manual,2016
+Tata,Tata Nexon EV XZ Plus,1000000.0,2020,Comprehensive,Electric,5,40000 ,First Owner,,Automatic,2020
+Hyundai,Hyundai Creta E BSVI,770000.0,2020,Own Damage,Petrol,5,90000 ,First Owner,1497 ,Manual,2020
