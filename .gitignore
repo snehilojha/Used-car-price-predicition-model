@@ -1,0 +1,7 @@
+.venv/
+__pycache__/
+catboost_info/
+models/
+.DS_Store
+*.pyc
+data/cleaned_cars_data.csv
