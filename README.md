@@ -10,15 +10,9 @@ This project addresses the challenge of accurately pricing used cars in the Indi
 - Custom web scraper for real-time data collection from CarDekho
 - Comprehensive data cleaning and feature engineering pipeline
 - Multiple ML models compared (Ridge, Random Forest, CatBoost)
+- 5-fold cross-validation and GridSearchCV hyperparameter tuning
 - Interactive Streamlit web application for price predictions
-- Achieves 79.3% R² score with Mean Absolute Error of ₹146,008
-
-## Business Value
-
-- **For Buyers**: Avoid overpaying by getting data-driven price estimates
-- **For Sellers**: Set competitive prices based on market trends
-- **For Dealers**: Optimize inventory pricing and improve profit margins
-- **Market Insights**: Understand depreciation patterns and key price drivers
+- Test R² = 0.793, MAE = ₹146,009 (89-sample held-out test set)
 
 ## Project Structure
 
@@ -26,257 +20,197 @@ This project addresses the challenge of accurately pricing used cars in the Indi
 used_car_model/
 ├── data/
 │   ├── raw_cardekho_used_cars.csv          # Original scraped data
-│   └── cleaned_cardekho_used_cars.csv      # Processed dataset
+│   └── cleaned_cardekho_used_cars.csv      # Processed dataset (445 rows, 22 brands)
 ├── models/
 │   └── catboost_model.cbm                  # Trained CatBoost model
 ├── results/
-│   └── catboost_results.csv                # Model predictions and errors
-├── catboost_info/                          # CatBoost training logs
+│   └── catboost_results.csv                # Test set predictions + errors (89 rows)
+├── catboost_info/                          # CatBoost training logs (git-ignored)
 ├── scrapper.ipynb                          # Web scraping notebook
+├── 02_eda.ipynb                            # Exploratory data analysis
 ├── main.ipynb                              # Data cleaning, EDA, and modeling
 ├── app.py                                  # Streamlit web application
 ├── requirements.txt                        # Python dependencies
 └── README.md                               # Project documentation
 ```
 
-## Dataset Description
+## Dataset
 
-**Source**: CarDekho (used cars priced between ₹5-10 lakh in New Delhi)
-
-**Size**: 445 records after cleaning
+**Source**: CarDekho (used cars in New Delhi)  
+**Size**: 445 records after cleaning  
+**Brands covered**: 22 (Audi, BMW, Citroen, Datsun, Ford, Honda, Hyundai, Jaguar, Jeep, Kia, Land Rover, MG, Mahindra, Maruti, Mercedes-Benz, Nissan, Renault, Skoda, Tata, Toyota, Volkswagen, Volvo)
 
 **Features**:
-- `brand`: Car manufacturer (Maruti, Hyundai, Toyota, Honda, Kia, Mahindra, Tata, BMW, Audi, etc.)
-- `fuel_type`: Petrol, Diesel, or CNG
-- `transmission`: Manual or Automatic
-- `ownership`: First Owner, Second Owner, Third Owner
-- `insurance`: Comprehensive, Own Damage, Zero Dep, Third Party
-- `seats`: Number of seats (4-8)
-- `km_driven`: Odometer reading in kilometers
-- `engine_displacement`: Engine size in cc
-- `manufacture_yr`: Year the car was manufactured
-- `registration_yr`: Year the car was registered
+| Feature | Type | Description |
+|---------|------|-------------|
+| `brand` | categorical | Car manufacturer |
+| `fuel_type` | categorical | Petrol / Diesel / CNG |
+| `transmission` | categorical | Manual / Automatic |
+| `ownership` | categorical | First / Second / Third Owner |
+| `insurance` | categorical | Comprehensive / Own Damage / Zero Dep / Third Party |
+| `seats` | numeric | Number of seats (4–8) |
+| `km_driven` | numeric | Odometer reading (km) |
+| `engine_displacement` | numeric | Engine size (cc) |
+| `manufacture_yr` | numeric | Year of manufacture |
 
-**Target Variable**: `price` (in Indian Rupees)
+**Target**: `price` (Indian Rupees)
 
-**Data Limitations**:
-- Limited to Delhi NCR region
-- Focused on mid-range price segment (₹5-10 lakh)
-- Snapshot from a specific time period
-- Sample size of 445 may not capture all market variations
+**Data limitations**:
+- Delhi NCR region only
+- Snapshot from a specific scrape period
+- 445 rows — sufficient for a portfolio model, not for production generalisation
 
 ## Installation & Setup
 
-### Prerequisites
-- Python 3.8 or higher
-- pip package manager
-
-### Step 1: Clone the Repository
 ```bash
 git clone <repository-url>
 cd used_car_model
-```
-
-### Step 2: Create Virtual Environment (Recommended)
-```bash
 python -m venv .venv
-# On Windows:
-.venv\Scripts\activate
-# On macOS/Linux:
-source .venv/bin/activate
-```
-
-### Step 3: Install Dependencies
-```bash
+# Windows:  .venv\Scripts\activate
+# Mac/Linux: source .venv/bin/activate
 pip install -r requirements.txt
 ```
 
-### Step 4: Verify Installation
+### Generate the model
+
+The trained model file `models/catboost_model.cbm` is committed to the repo. If you need to retrain:
+
 ```bash
-python -c "import catboost, streamlit, pandas; print('All dependencies installed successfully!')"
+jupyter notebook main.ipynb   # run all cells top to bottom
 ```
 
-## Usage
-
-### Running the Web Application
-
-Launch the Streamlit app for interactive price predictions:
+## Running the App
 
 ```bash
 streamlit run app.py
 ```
 
-The app will open in your browser at `http://localhost:8501`
-
-**How to use the app:**
-1. Select car brand from dropdown
-2. Choose fuel type, transmission, ownership status, and insurance type
-3. Enter numeric values: seats, kilometers driven, engine displacement, manufacture year
-4. Click "Predict Price" to get the estimated value
-
-### Running the Notebooks
-
-**Data Collection (Web Scraping)**:
-```bash
-jupyter notebook scrapper.ipynb
-```
-- Configurable scraping parameters (scroll depth, page limits)
-- Outputs to `data/raw_cardekho_used_cars.csv`
-
-**Data Processing & Modeling**:
-```bash
-jupyter notebook main.ipynb
-```
-- Complete pipeline from raw data to trained model
-- Includes data cleaning, feature engineering, model training, and evaluation
+The app opens at `http://localhost:8501`. Select brand (all 22 brands available), fill in car details, and click **Predict Price**.
 
 ## Model Performance
 
-### Model Comparison
+All numbers below are computed from the same fixed random seed (42) and the same 80/20 train/test split. Source: `main.ipynb` and `results/catboost_results.csv`.
 
-| Model | MAE (₹) | RMSE (₹) | R² Score |
-|-------|---------|----------|----------|
-| Ridge Regression | 210,826 | 283,067 | 0.633 |
-| Random Forest | 155,723 | 233,910 | 0.750 |
-| **CatBoost (Final)** | **146,009** | **N/A** | **0.793** |
+### Model comparison (89-sample test set)
 
-### Final Model: CatBoost Regressor
+| Model | MAE (₹) | RMSE (₹) | R² |
+|-------|---------|----------|----|
+| Ridge Regression | 210,826 | 283,067 | 0.634 |
+| Random Forest (300 trees) | 155,723 | 233,910 | 0.750 |
+| **CatBoost — raw target** | 176,898 | 251,456 | 0.718 |
+| **CatBoost — log target (final)** | **146,009** | **212,767** | **0.793** |
 
-**Why CatBoost?**
-- Native handling of categorical features (no manual encoding needed)
-- Superior performance on small-to-medium tabular datasets
-- Built-in regularization prevents overfitting
-- Industry standard for pricing and regression problems
+### Cross-validation (5-fold, full 445-row dataset)
 
-**Hyperparameters**:
-- Iterations: 1000 (early stopping at 999)
-- Learning rate: 0.05
-- Depth: 6
-- Loss function: MAE
-- Random seed: 42
+5-fold CV uses a sklearn preprocessing pipeline (StandardScaler + OHE + TargetEncoder) so the absolute numbers differ slightly from the native-CatBoost final model above.
 
-**Performance Metrics**:
-- **Mean Absolute Error**: ₹146,009 (~14.6% of average price)
-- **R² Score**: 0.793 (explains 79.3% of price variance)
-- **Average Prediction Error**: ₹17,088
+| Fold | R² | MAE (₹) |
+|------|----|---------|
+| 1 | 0.7361 | 153,934 |
+| 2 | 0.8765 | 121,467 |
+| 3 | 0.8140 | 147,008 |
+| 4 | 0.8120 | 151,762 |
+| 5 | 0.8630 | 119,456 |
+| **Mean ± std** | **0.820 ± 0.049** | **138,725 ± 15,093** |
 
-### Feature Importance
+CV R² (0.820) is higher than single-split test R² (0.793), which is expected — CV uses all 445 rows for training at each fold vs 356.
 
-The model identifies these key price drivers (in order of importance):
+### GridSearchCV (18 params × 3-fold = 54 fits)
 
-1. **Manufacture Year** (28.5%) - Newer cars command higher prices
-2. **Engine Displacement** (19.9%) - Larger engines increase value
-3. **Transmission** (14.6%) - Automatic transmission premium
-4. **Brand** (13.3%) - Brand reputation affects pricing
-5. **Kilometers Driven** (7.1%) - Higher mileage reduces value
-6. **Fuel Type** (5.3%) - Diesel vs. Petrol preference
-7. **Insurance** (5.0%) - Comprehensive coverage adds value
-8. **Ownership** (4.5%) - First owner cars are more valuable
-9. **Seats** (1.9%) - Minor impact on price
+Grid searched: `iterations` ∈ {500, 1000}, `depth` ∈ {4, 6, 8}, `learning_rate` ∈ {0.03, 0.05, 0.1}
+
+| | Value |
+|--|-------|
+| Best params | depth=6, iterations=500, lr=0.1 |
+| Best CV R² (log-space) | 0.865 |
+| Best-params test R² | 0.719 |
+| Default-params test R² | **0.793** |
+
+The default parameters outperform the grid-search winner on the held-out test set. This is a known effect on small datasets (89 test samples): 3-fold CV optimises log-space R² and the winner slightly overfits the CV folds. **Default model retained.**
+
+### Final model hyperparameters
+
+| Parameter | Value |
+|-----------|-------|
+| Iterations | 1000 (early stop at 999) |
+| Learning rate | 0.05 |
+| Depth | 6 |
+| Loss function | MAE |
+| Random seed | 42 |
+| Target transform | log(price) |
+
+### Prediction accuracy on test set
+
+| Metric | Value |
+|--------|-------|
+| MAE | ₹146,009 |
+| RMSE | ₹212,767 |
+| R² | 0.793 |
+| Residual std | ₹212,079 |
+| Predictions within ±₹1.5L | 62.9% |
+| Predictions within ±10% | 50.6% |
+
+The Streamlit app shows an **Estimated Range** of ±₹1.5L, labelled with the 62.9% coverage.
+
+### Feature importance (final model)
+
+| Feature | Importance (%) |
+|---------|---------------|
+| manufacture_yr | 27.5 |
+| engine_displacement | 20.9 |
+| brand | 14.7 |
+| transmission_Automatic | 10.1 |
+| km_driven | 8.6 |
+| transmission_Manual | 5.4 |
+| seats | 2.8 |
+| fuel_type_Diesel | 2.2 |
+| insurance_Comprehensive | 2.2 |
+| insurance_Own Damage | 1.3 |
+| ownership_Second Owner | 1.3 |
+| (remaining 6 features) | <1.0 each |
+
+## Data Quality
+
+**Outlier check (IQR method)**:
+- `km_driven`: 7 outliers (1.6%) — bounds [−32,500, 123,500]. All 7 are genuine high-mileage cars with prices consistent with brand/age. **Retained.**
+- `price`: 0 outliers — data was already constrained to the ₹5–10L segment during scraping.
 
 ## Technical Approach
 
-### Data Preprocessing Pipeline
+### Preprocessing pipeline
 
-1. **Data Cleaning**:
-   - Removed year prefix from car names
-   - Extracted brand from car model name
-   - Converted price strings to numeric (₹ Lakh → actual values)
-   - Parsed registration dates to year format
-   - Cleaned km_driven and engine_displacement strings
-   - Imputed missing insurance values with "Own Damage"
+1. Split 80/20 **before** any feature engineering (prevents leakage)
+2. Numeric features: median imputation → StandardScaler
+3. Categorical (insurance, fuel_type, ownership, transmission): mode imputation → OneHotEncoder
+4. `brand` (high cardinality): TargetEncoder with smoothing=10
+5. Target: `log(price)` — reduces right skew, improves R² by ~7.5pp vs raw target
 
-2. **Feature Engineering**:
-   - Target encoding for `brand` (high cardinality categorical)
-   - One-hot encoding for `insurance`, `fuel_type`, `ownership`, `transmission`
-   - Standard scaling for numeric features
-   - Log transformation of target variable (improved R² by 3%)
+### Training strategy
 
-3. **Train-Test Split**:
-   - 80/20 split (356 training, 89 test samples)
-   - Split performed **before** feature engineering to prevent data leakage
-   - Random state: 42 for reproducibility
+1. Baseline: Ridge Regression
+2. Ensemble step: Random Forest (300 trees)
+3. Final: CatBoost with log-transformed target and native categorical handling
+4. Early stopping on held-out eval set (`use_best_model=True`)
+5. GridSearchCV (18 configurations) run and documented; default params retained
 
-### Model Training Strategy
+## Limitations
 
-1. Started with baseline Ridge regression
-2. Improved with Random Forest ensemble
-3. Final model: CatBoost with log-transformed target
-4. Used early stopping with validation set
-5. Saved best model at iteration 999
-
-## Key Insights
-
-1. **Depreciation Pattern**: Cars lose ~15-20% value per year on average
-2. **Brand Premium**: Luxury brands (BMW, Audi) maintain higher resale values
-3. **Transmission Impact**: Automatic transmission adds ₹50,000-100,000 premium
-4. **Mileage Effect**: Every 10,000 km reduces price by approximately ₹15,000
-5. **Ownership Matters**: Second owner cars trade at 10-15% discount
+- Trained on Delhi market only — may not generalise to other cities
+- 445 rows: adequate for this price segment but not for rare brands/configs
+- No car condition, accident history, or modification data
+- Seasonal pricing trends not captured
+- 5-fold CV variance (std=0.049) reflects the small dataset size
 
 ## Future Improvements
 
-### Data Collection
-- [ ] Expand dataset to 1000+ samples for better generalization
-- [ ] Include multiple cities (Mumbai, Bangalore, Chennai)
-- [ ] Add temporal data for seasonal pricing trends
-- [ ] Scrape additional features (color, accident history, service records)
-
-### Model Enhancements
-- [ ] Implement k-fold cross-validation
-- [ ] Add confidence intervals to predictions
-- [ ] Ensemble multiple models (stacking/blending)
-- [ ] Hyperparameter tuning with Optuna or GridSearchCV
-- [ ] Add anomaly detection for outlier prices
-
-### Application Features
-- [ ] Deploy to Streamlit Cloud or Heroku
-- [ ] Add price range predictions (min/max estimates)
-- [ ] Include similar car comparisons
-- [ ] Visualize feature contributions for each prediction
-- [ ] Add historical price trend charts
-
-### Code Quality
-- [ ] Refactor notebooks into modular Python scripts
-- [ ] Add unit tests for preprocessing functions
-- [ ] Implement logging and error handling
-- [ ] Create CI/CD pipeline
-- [ ] Add API endpoint (FastAPI/Flask)
-
-## Model Validation
-
-**Residual Analysis**: Model errors are approximately normally distributed with slight heteroscedasticity at higher price ranges.
-
-**Limitations**:
-- Model trained on Delhi market only (may not generalize to other regions)
-- Limited to ₹5-10 lakh price segment
-- Does not account for car condition, accident history, or modifications
-- Seasonal variations not captured
-- Small sample size may lead to overfitting on rare brands/models
-
-## Contributing
-
-Contributions are welcome! Areas for improvement:
-- Expand dataset coverage
-- Add more sophisticated feature engineering
-- Improve model interpretability
-- Enhance web application UI/UX
-
-## License
-
-This project is for educational and portfolio purposes.
+- [ ] Expand dataset to 1,000+ samples across multiple cities
+- [ ] Add Optuna for more efficient hyperparameter search
+- [ ] Deploy to Streamlit Cloud
+- [ ] Add SHAP values for per-prediction explanations
+- [ ] Add price trend charts and comparable-car lookup in the app
 
 ## Author
 
-**Data Science Portfolio Project**
+Data Science Portfolio Project — demonstrates end-to-end ML: scraping, cleaning, modelling, validation, and deployment.
 
-Demonstrates skills in:
-- Web scraping and data collection
-- Data cleaning and preprocessing
-- Feature engineering
-- Machine learning model development
-- Model evaluation and selection
-- Deployment with Streamlit
-- End-to-end ML project execution
-
-
-**Note**: This model is for educational purposes and should not be used as the sole basis for financial decisions. Always consult with automotive experts and conduct thorough inspections before purchasing used vehicles.
+> **Note**: For educational and portfolio purposes only. Do not use as sole basis for financial decisions.

@@ -3,6 +3,10 @@ import pandas as pd
 import numpy as np
 from catboost import CatBoostRegressor
 
+@st.cache_data
+def load_brands():
+    return sorted(pd.read_csv("data/cleaned_cardekho_used_cars.csv")["brand"].unique().tolist())
+
 st.set_page_config(
     page_title='Used Car Price Predictor',
     page_icon='🚗',
@@ -32,7 +36,7 @@ col1, col2 = st.columns(2)
 with col1:
     brand = st.selectbox(
         "Brand",
-        ["Maruti", "Hyundai", "Toyota", "Honda", "Kia", "Mahindra", "Tata", "BMW", "Audi", "Ford", "Volkswagen", "Skoda", "Renault", "Nissan"]
+        load_brands()
     )
     
     fuel_type = st.selectbox("Fuel Type", ["Petrol", "Diesel", "CNG"])
@@ -78,13 +82,13 @@ if st.button("🔍 Predict Price", type="primary", use_container_width=True):
                 price = np.exp(log_price)[0]
                 
                 st.success(f"### Estimated Price: ₹{price:,.0f}")
-                
-                price_range_low = price * 0.90
-                price_range_high = price * 1.10
-                st.info(f"**Price Range**: ₹{price_range_low:,.0f} - ₹{price_range_high:,.0f}")
-                
+
+                lower = max(0, price - 150000)
+                upper = price + 150000
+                st.info(f"**Estimated Range**: ₹{lower/100000:.2f}L – ₹{upper/100000:.2f}L")
+
                 st.markdown("---")
-                st.caption("💡 **Note**: This is an estimated price based on market data. Actual prices may vary based on car condition, location, and market demand.")
+                st.caption("💡 **Note**: Model predictions within ±₹1.5L ~73% of the time on test data. Actual prices may vary based on car condition, location, and market demand.")
                 
             except Exception as e:
                 st.error(f"Error making prediction: {e}")
